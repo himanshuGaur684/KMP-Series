@@ -28,6 +28,7 @@ kotlin {
         }
         commonMain.dependencies {
             // put your Multiplatform dependencies here
+            implementation(libs.kmp.observableviewmodel.core)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
