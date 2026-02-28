@@ -41,7 +41,7 @@ fun App() {
                     horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
                     Image(painterResource(Res.drawable.compose_multiplatform), null)
-                    Text("Compose: ${DateFormatterCommon().format(System.currentTimeMillis())}")
+                    Text("Compose: ${Greeting().greet()}")
                 }
             }
         }
